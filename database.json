@@ -25,8 +25,15 @@
             "id": 4,
             "name": "Nala",
             "breed": "Siberian Husky",
-            "customerId": 4,
+            "customerId": 3,
             "locationId": 2
+        },
+        {
+            "id": 5,
+            "name": "Bella",
+            "breed": "Labrador Retriever",
+            "customerId": 4,
+            "locationId": 1
         }
     ],
     "customers": [
