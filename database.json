@@ -2,10 +2,8 @@
   "animals": [
     {
       "id": 2,
-      "name": "Fido",
-      "breed": "Beagle",
-      "customerId": 2,
-      "locationId": 1
+      "name": "Bart",
+      "breed": "Beagle"
     },
     {
       "id": 3,
@@ -23,10 +21,8 @@
     },
     {
       "id": 5,
-      "name": "Bella",
-      "breed": "Labrador Retriever",
-      "customerId": 4,
-      "locationId": 1
+      "name": "Rocky",
+      "breed": "Labrador Retriever"
     }
   ],
   "customers": [
@@ -84,22 +80,19 @@
       "locationId": 2
     },
     {
-      "name": "Employee 3",
-      "address": "222 Road Pl",
-      "locationId": 2,
-      "id": 3
+      "id": 3,
+      "name": "Bob Smith",
+      "locationId": 1
     },
     {
-      "name": "Employee 4",
-      "address": "333 Somewhere Dr",
-      "locationId": 1,
-      "id": 4
+      "id": 4,
+      "name": "Julie Jules",
+      "locationId": 1
     },
     {
-      "name": "Employee 6",
-      "address": "",
-      "locationId": 1,
-      "id": 5
+      "id": 5,
+      "name": "Brian Brians",
+      "locationId": "4"
     }
   ],
   "locations": [
@@ -119,9 +112,9 @@
       "id": 3
     },
     {
+      "id": 4,
       "name": "Nashville West",
-      "address": "555 West Ave",
-      "id": 4
+      "address": "777 West Ave"
     }
   ]
 }
