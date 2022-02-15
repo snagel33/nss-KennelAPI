@@ -1,85 +1,116 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Fido",
-            "breed": "Beagle",
-            "customerId": 2,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Maddox",
-            "breed": "Australian Shepherd",
-            "customerId": 3,
-            "locationId": 2
-        },
-        {
-            "id": 4,
-            "name": "Nala",
-            "breed": "Siberian Husky",
-            "customerId": 3,
-            "locationId": 2
-        },
-        {
-            "id": 5,
-            "name": "Bella",
-            "breed": "Labrador Retriever",
-            "customerId": 4,
-            "locationId": 1
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Sydney Noh",
-            "address": "976 Software School Rd."
-        },
-        {
-            "id": 2,
-            "name": "Trevor Guinn",
-            "address": "123 NSS Ln"
-        },
-        {
-            "id": 3,
-            "name": "Steven Nagel",
-            "address": "345 Somewhere St"
-        },
-        {
-            "id": 4,
-            "name": "Ricky Bobby",
-            "address": "678 IwantToGoFast Dr."
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Emma Beaton",
-            "locationId": 1
-        },
-        {
-            "id": 2,
-            "name": "Samantha Smith",
-            "locationId": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
-  }
+  "animals": [
+    {
+      "id": 2,
+      "name": "Fido",
+      "breed": "Beagle",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Maddox",
+      "breed": "Australian Shepherd",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Nala",
+      "breed": "Siberian Husky",
+      "customerId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Bella",
+      "breed": "Labrador Retriever",
+      "customerId": 4,
+      "locationId": 1
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Sydney Noh",
+      "address": "976 Software School Rd."
+    },
+    {
+      "id": 2,
+      "name": "Trevor Guinn",
+      "address": "123 NSS Ln"
+    },
+    {
+      "id": 3,
+      "name": "Steven Nagel",
+      "address": "345 Somewhere St"
+    },
+    {
+      "id": 4,
+      "name": "Ricky Bobby",
+      "address": "678 IwantToGoFast Dr."
+    },
+    {
+      "name": "Steven Nagel",
+      "address": "222 Place Dr",
+      "id": 5
+    },
+    {
+      "name": "Customer 8",
+      "address": "222 Road Pl",
+      "id": 6
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Emma Beaton",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Samantha Smith",
+      "locationId": 2
+    },
+    {
+      "name": "Employee 3",
+      "address": "222 Road Pl",
+      "locationId": 2,
+      "id": 3
+    },
+    {
+      "name": "Employee 4",
+      "address": "333 Somewhere Dr",
+      "locationId": 1,
+      "id": 4
+    },
+    {
+      "name": "Employee 6",
+      "address": "",
+      "locationId": 1,
+      "id": 5
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "name": "Nashville East",
+      "address": "444 East Dr",
+      "id": 3
+    },
+    {
+      "name": "Nashville West",
+      "address": "555 West Ave",
+      "id": 4
+    }
+  ]
+}
